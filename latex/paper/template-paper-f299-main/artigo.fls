@@ -1,6 +1,6 @@
-PWD c:\Users\guilh\OneDrive\Área de Trabalho\estudando\clones\pi-ponskan\artefatos\latex\template-paper-f299-main
+PWD c:\Users\guilh\Documents\Codigo\vita-paper\latex\paper\template-paper-f299-main
 INPUT C:\Users\guilh\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\guilh\OneDrive\Área de Trabalho\estudando\clones\pi-ponskan\artefatos\latex\template-paper-f299-main\artigo.tex
+INPUT c:\Users\guilh\Documents\Codigo\vita-paper\latex\paper\template-paper-f299-main\artigo.tex
 OUTPUT artigo.log
 INPUT C:\Users\guilh\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\guilh\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -393,6 +393,18 @@ INPUT C:\Users\guilh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi10.tf
 INPUT C:\Users\guilh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
 INPUT C:\Users\guilh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT C:\Users\guilh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT .\imgs\base\fatec-rgt.png
+INPUT .\imgs\base\fatec-rgt.png
+INPUT .\imgs\base\fatec-rgt.png
+INPUT .\imgs\base\fatec-rgt.png
+INPUT .\imgs\base\cps-logo.png
+INPUT .\imgs\base\cps-logo.png
+INPUT .\imgs\base\cps-logo.png
+INPUT .\imgs\base\cps-logo.png
+INPUT .\imgs\base\governo-sp-secretaria-logo.png
+INPUT .\imgs\base\governo-sp-secretaria-logo.png
+INPUT .\imgs\base\governo-sp-secretaria-logo.png
+INPUT .\imgs\base\governo-sp-secretaria-logo.png
 INPUT .\imgs\base\fatec-rgt.png
 INPUT .\imgs\base\fatec-rgt.png
 INPUT .\imgs\base\fatec-rgt.png
