@@ -50,20 +50,32 @@
   \url{https://www.cnpmf.embrapa.br/Base_de_Dados/index_pdf/dados/brasil/tangerina/b32_tangerina.pdf}
 \BIBentrySTDinterwordspacing
 
+\bibitem{Brasil2006}
+\BIBentryALTinterwordspacing
+{Brasil}, ``Lei n{\textordmasculine} 11.326, de 24 de julho de 2006: Estabelece
+  as diretrizes para a formulação da política nacional da agricultura
+  familiar e empreendimentos familiares rurais,'' Diário Oficial da União,
+  Brasília, DF, 25 jul. 2006, 2006. [Online]. Available:
+  \url{https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11326.htm}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Wanderley2000}
+\BIBentryALTinterwordspacing
+M.~d. N.~B. Wanderley, ``A valorização da agricultura familiar e a
+  reivindicação da ruralidade no brasil,'' \emph{Desenvolvimento e Meio
+  Ambiente}, vol.~2, 2000. [Online]. Available:
+  \url{https://revistas.ufpr.br/made/article/view/22105}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Wanderley2003}
+------, ``Agricultura familiar e campesinato: rupturas e continuidade,''
+  \emph{Estudos Sociedade e Agricultura}, no.~21, pp. 42--61, oct 2003.
+
 \bibitem{Pagassini2024}
 J.~A.~V. Pagassini, L.~C. F.~d. Almeida, and M.~C. d.~G. Gasparoto,
   ``Perception and adoption of integrated plant disease management by family
   farmers in ribeira valley (são paulo state, brazil),'' \emph{Revista Caderno
   Pedagógico}, vol.~21, no.~3, pp. 1--22, 2024.
-
-\bibitem{Borges2021}
-\BIBentryALTinterwordspacing
-A.~L. Borges, E.~A. Girardi, and L.~d.~S. Souza, ``Recomendação de calagem e
-  adubação,'' in \emph{Calagem e adubação para os citros (laranjeiras,
-  limeiras-ácidas e tangerineiras)}.\hskip 1em plus 0.5em minus 0.4em\relax
-  EMBRAPA, 2020. [Online]. Available:
-  \url{https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1134672/1/cap9-livro-RecomendacaoCalagemAdubacao-AnaLuciaBorges-AINFO-1.pdf}
-\BIBentrySTDinterwordspacing
 
 \bibitem{SilvaJunior2016}
 \BIBentryALTinterwordspacing
@@ -139,6 +151,12 @@ P.~P.~E. Ribeiro, L.~A. Castro~Jorge, and M.~S.~V. Paiva, ``Diferenciação do
   [Online]. Available: \url{https://www.python.org/}
 \BIBentrySTDinterwordspacing
 
+\bibitem{PostgreSQL2023}
+\BIBentryALTinterwordspacing
+{PostgreSQL Global Development Group}. (2023) {PostgreSQL} 16 documentation.
+  [Online]. Available: \url{https://www.postgresql.org/docs/16/}
+\BIBentrySTDinterwordspacing
+
 \bibitem{Redis2026}
 \BIBentryALTinterwordspacing
 {Redis Ltd.} (2026) {Redis} documentation. [Online]. Available:
@@ -167,5 +185,14 @@ L.~Fuller. (2026) sharp: High performance {Node.js} image processing. [Online].
 J.~R. et~al., ``You only look once: Unified, real-time object detection,''
   \emph{IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   2016.
+
+\bibitem{Borges2021}
+\BIBentryALTinterwordspacing
+A.~L. Borges, E.~A. Girardi, and L.~d.~S. Souza, ``Recomendação de calagem e
+  adubação,'' in \emph{Calagem e adubação para os citros (laranjeiras,
+  limeiras-ácidas e tangerineiras)}.\hskip 1em plus 0.5em minus 0.4em\relax
+  EMBRAPA, 2020. [Online]. Available:
+  \url{https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1134672/1/cap9-livro-RecomendacaoCalagemAdubacao-AnaLuciaBorges-AINFO-1.pdf}
+\BIBentrySTDinterwordspacing
 
 \end{thebibliography}
