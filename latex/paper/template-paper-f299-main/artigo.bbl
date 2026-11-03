@@ -127,4 +127,45 @@ P.~P.~E. Ribeiro, L.~A. Castro~Jorge, and M.~S.~V. Paiva, ``Diferenciação do
   \url{https://swfrec.ifas.ufl.edu/hlb/database/pdf/00002955.pdf}
 \BIBentrySTDinterwordspacing
 
+\bibitem{NodeJS2026}
+\BIBentryALTinterwordspacing
+{OpenJS Foundation}. (2026) {Node.js} documentation. [Online]. Available:
+  \url{https://nodejs.org/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Python2026}
+\BIBentryALTinterwordspacing
+{Python Software Foundation}. (2026) {Python} language reference, version 3.x.
+  [Online]. Available: \url{https://www.python.org/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Redis2026}
+\BIBentryALTinterwordspacing
+{Redis Ltd.} (2026) {Redis} documentation. [Online]. Available:
+  \url{https://redis.io/docs/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ReactNative2026}
+\BIBentryALTinterwordspacing
+{Meta}. (2026) {React Native}: Learn once, write anywhere. [Online]. Available:
+  \url{https://reactnative.dev/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{NextJS2026}
+\BIBentryALTinterwordspacing
+{Vercel}. (2026) {Next.js} documentation. [Online]. Available:
+  \url{https://nextjs.org/docs}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Fuller2026}
+\BIBentryALTinterwordspacing
+L.~Fuller. (2026) sharp: High performance {Node.js} image processing. [Online].
+  Available: \url{https://sharp.pixelplumbing.com/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Redmon2016}
+J.~R. et~al., ``You only look once: Unified, real-time object detection,''
+  \emph{IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  2016.
+
 \end{thebibliography}

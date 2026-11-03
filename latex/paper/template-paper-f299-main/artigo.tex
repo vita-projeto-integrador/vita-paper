@@ -139,7 +139,7 @@ Em paralelo, o projeto possui objetivos secundários que complementam sua finali
 
 \begin{itemize}
     
-\item Alcançar acurácia mínima de 90\% na identificação da Pinta Preta em fotos de tangerinas através de CNN;
+\item Alcançar acurácia mínima de 80\% na identificação da Pinta Preta em fotos de tangerinas através de CNN;
 \item Garantir, desde o envio de imagens para análise até a exibição dos resultados, um tempo de processamento máximo de 10 segundos;
 \item Desenvolver um algoritmo para recomendação de práticas de manejo com prazos, baseado em análise de dados climáticos;
 \item Desenvolver um mapeamento gráfico dos pontos de infecção analisados e suas respectivas áreas de risco no pomar, baseado no georreferenciamento de dispositivos móveis.
@@ -164,23 +164,13 @@ Em síntese, enquanto os trabalhos de Ribeiro, Castro Jorge e Paiva (2012) \cite
 
 Esta pesquisa caracteriza-se como um estudo de natureza aplicada com abordagem experimental, voltado ao desenvolvimento de um sistema multiplataforma de pré-diagnóstico fitossanitário para a identificação precoce da Pinta Preta (Phyllosticta citricarpa) na cultura da tangerina Ponkan, visando a otimização de medidas preventivas no Vale do Ribeira.
 
-O sistema será estruturado em uma arquitetura de microsserviços. A orquestração da Interface de Programação de Aplicações (API) será realizada em Node.js, enquanto o processamento de Inteligência Artificial (IA) utilizará a linguagem Python. A persistência dos dados ocorrerá em banco de dados PostgreSQL via Object-Relational Mapping (ORM) Sequelize, com o suporte do Redis e da biblioteca BullMQ para o gerenciamento de filas assíncronas.
+O sistema será estruturado em uma arquitetura de microsserviços para garantir escalabilidade e independência entre os módulos. A orquestração da Interface de Programação de Aplicações (API) será realizada em Node.js (OPENJS FOUNDATION, 2026) \cite{NodeJS2026}, enquanto o módulo de Inteligência Artificial (IA) utilizará a linguagem Python (PYTHON SOFTWARE FOUNDATION, 2026) \cite{Python2026}. A persistência de dados será gerenciada pelo banco PostgreSQL () \cite{} via Object-Relational Mapping (ORM) Sequelize, com suporte do Redis (REDIS LTD, 2026) \cite{Redis2026} e da biblioteca BullMQ para o gerenciamento de filas assíncronas. A comunicação entre os módulos ocorrerá via API com estilo arquitetural Representational State Transfer (REST). Para assegurar a responsividade da interface multiplataforma (React Native, META, 2026; Next.js, VERCEL, 2026) \cite{ReactNative2026} \cite{NextJS2026}, o processamento será delegado a workers assíncronos. O pipeline de tratamento utilizará a biblioteca Sharp (LOVELL, 2026) \cite{Fuller2026} para redimensionamento (224x224 px), filtragem de ruído, ajustes de contraste, conversão para padrão sRGB e extração de buffer binário.
 
-A comunicação entre os módulos ocorrerá via API com estilo arquitetural Representational State Transfer (REST). Para garantir a responsividade da interface (React Native e Next.js), o processamento de imagens será delegado a workers assíncronos. O pipeline de tratamento utilizará a biblioteca Sharp para redimensionamento (224x224 px), filtragem de ruído, ajustes de contraste, conversão para padrão sRGB e extração de buffer binário.
-
-A inferência será realizada por uma Rede Neural Convolucional (CNN) de duas fases: o algoritmo YOLO detectará as lesões e a rede EfficientNet as classificará, adotando um limiar de confiança de 80\%. O sistema operará através dos módulos de Diagnóstico, Contexto, Recomendação (baseado em protocolos da EMBRAPA e Fundecitrus) e Diagramação, utilizando a estratégia de "deleção lógica" para assegurar a rastreabilidade dos registros.
-
-O fluxo da arquitetura (Figura 1) iniciar-se-á com o upload das imagens pelo cliente (Etapa A), que serão salvas pela API e registradas como "Pendente" (Etapa B). O job será enviado à fila assíncrona (Etapa C), onde o worker acionará o tratamento via Sharp (Etapa D).
-
-A imagem tratada será submetida ao modelo de IA (Etapa E) para inferência. Caso o diagnóstico seja positivo (Etapa F), o sistema aplicará os protocolos da EMBRAPA para gerar um Plano de Ação (Etapa G) e persistirá o resultado no PostgreSQL (Etapa H).
-
-Ao finalizar, o sistema atualizará o status da análise para "Concluída" (Etapa I), disparando a notificação de resultado para a interface do usuário (Etapa J). Se o diagnóstico for negativo, o sistema desativará a análise, mantendo o banco de dados otimizado.
-
-Este ciclo assíncrono garantirá a escalabilidade do sistema. Para validar a arquitetura, serão realizados testes em ambiente controlado, simulando capturas sob variadas condições de luz e ruído, visando aferir a robustez do pipeline e a precisão da classificação final da IA.
+A inferência será realizada por uma arquitetura de CNN em duas fases: o algoritmo YOLO (REDMON et al., 2016) \cite{Redmon2016} detectará as lesões, enquanto a rede EfficientNet (TAN; LE, 2019) \cite{TanLe2019} realizará a classificação das patologias com um limiar de confiança de 80\%. O sistema operará através dos módulos de Diagnóstico, Contexto, Recomendação - fundamentado nos protocolos de manejo da Embrapa (BORGES et al., 2020) \cite{Borges2021} e Fundecitrus (SILVA JUNIOR et al., 2016) \cite{SilvaJunior2016} - e Diagramação, utilizando a estratégia de "deleção lógica"para assegurar a rastreabilidade dos registros.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{imgs/fluxograma_metodologia_031126.png}
+\includegraphics[width=\textwidth]{imgs/fluxo2.png}
 \caption{Fluxo de processamento de imagens do sistema. \\ Fonte: Autoria própria.}
 \label{fig:exemplo}
 \end{figure}

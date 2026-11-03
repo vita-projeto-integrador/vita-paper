@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.5.18)  3 NOV 2026 12:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.5.18)  3 NOV 2026 12:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -767,49 +767,49 @@ Package pdftex.def Info: imgs/base/governo-sp-secretaria-logo.png  used on input
  [3{C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
 File: imgs/base/fatec-rgt.png Graphic file (type png)
 <use imgs/base/fatec-rgt.png>
-Package pdftex.def Info: imgs/base/fatec-rgt.png  used on input line 170.
+Package pdftex.def Info: imgs/base/fatec-rgt.png  used on input line 168.
 (pdftex.def)             Requested size: 50.38678pt x 22.76228pt.
 File: imgs/base/cps-logo.png Graphic file (type png)
 <use imgs/base/cps-logo.png>
-Package pdftex.def Info: imgs/base/cps-logo.png  used on input line 170.
+Package pdftex.def Info: imgs/base/cps-logo.png  used on input line 168.
 (pdftex.def)             Requested size: 38.12112pt x 25.6073pt.
 File: imgs/base/governo-sp-secretaria-logo.png Graphic file (type png)
 <use imgs/base/governo-sp-secretaria-logo.png>
-Package pdftex.def Info: imgs/base/governo-sp-secretaria-logo.png  used on input line 170.
+Package pdftex.def Info: imgs/base/governo-sp-secretaria-logo.png  used on input line 168.
 (pdftex.def)             Requested size: 168.61908pt x 29.87547pt.
  [4]
-<imgs/fluxograma_metodologia_031126.png, id=89, 1927.2pt x 536.9661pt>
-File: imgs/fluxograma_metodologia_031126.png Graphic file (type png)
-<use imgs/fluxograma_metodologia_031126.png>
-Package pdftex.def Info: imgs/fluxograma_metodologia_031126.png  used on input line 183.
-(pdftex.def)             Requested size: 455.24411pt x 126.84251pt.
+<imgs/fluxo2.png, id=102, 7924.10437pt x 2207.99907pt>
+File: imgs/fluxo2.png Graphic file (type png)
+<use imgs/fluxo2.png>
+Package pdftex.def Info: imgs/fluxo2.png  used on input line 173.
+(pdftex.def)             Requested size: 455.24411pt x 126.84778pt.
  (artigo.bbl
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 27.
 File: imgs/base/fatec-rgt.png Graphic file (type png)
 <use imgs/base/fatec-rgt.png>
-Package pdftex.def Info: imgs/base/fatec-rgt.png  used on input line 58.
+Package pdftex.def Info: imgs/base/fatec-rgt.png  used on input line 68.
 (pdftex.def)             Requested size: 50.38678pt x 22.76228pt.
 File: imgs/base/cps-logo.png Graphic file (type png)
 <use imgs/base/cps-logo.png>
-Package pdftex.def Info: imgs/base/cps-logo.png  used on input line 58.
+Package pdftex.def Info: imgs/base/cps-logo.png  used on input line 68.
 (pdftex.def)             Requested size: 38.12112pt x 25.6073pt.
 File: imgs/base/governo-sp-secretaria-logo.png Graphic file (type png)
 <use imgs/base/governo-sp-secretaria-logo.png>
-Package pdftex.def Info: imgs/base/governo-sp-secretaria-logo.png  used on input line 58.
+Package pdftex.def Info: imgs/base/governo-sp-secretaria-logo.png  used on input line 68.
 (pdftex.def)             Requested size: 168.61908pt x 29.87547pt.
- [5 <./imgs/fluxograma_metodologia_031126.png (PNG copy)>])
+ [5 <./imgs/fluxo2.png (PNG copy)>])
 File: imgs/base/fatec-rgt.png Graphic file (type png)
 <use imgs/base/fatec-rgt.png>
-Package pdftex.def Info: imgs/base/fatec-rgt.png  used on input line 321.
+Package pdftex.def Info: imgs/base/fatec-rgt.png  used on input line 311.
 (pdftex.def)             Requested size: 50.38678pt x 22.76228pt.
 File: imgs/base/cps-logo.png Graphic file (type png)
 <use imgs/base/cps-logo.png>
-Package pdftex.def Info: imgs/base/cps-logo.png  used on input line 321.
+Package pdftex.def Info: imgs/base/cps-logo.png  used on input line 311.
 (pdftex.def)             Requested size: 38.12112pt x 25.6073pt.
 File: imgs/base/governo-sp-secretaria-logo.png Graphic file (type png)
 <use imgs/base/governo-sp-secretaria-logo.png>
-Package pdftex.def Info: imgs/base/governo-sp-secretaria-logo.png  used on input line 321.
+Package pdftex.def Info: imgs/base/governo-sp-secretaria-logo.png  used on input line 311.
 (pdftex.def)             Requested size: 168.61908pt x 29.87547pt.
  [6] (artigo.aux)
  ***********
@@ -820,17 +820,17 @@ Package rerunfilecheck Info: File `artigo.out' has not changed.
 (rerunfilecheck)             Checksum: 36518624C7955927F9F5F4D1E3D080E9;399.
  ) 
 Here is how much of TeX's memory you used:
- 25005 strings out of 467691
- 467573 string characters out of 5414987
- 956651 words of memory out of 5000000
- 53614 multiletter control sequences out of 15000+600000
+ 25017 strings out of 467691
+ 467577 string characters out of 5414987
+ 957886 words of memory out of 5000000
+ 53619 multiletter control sequences out of 15000+600000
  682209 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,18n,94p,1299b,985s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,18n,94p,1321b,983s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
-Output written on artigo.pdf (6 pages, 617974 bytes).
+Output written on artigo.pdf (6 pages, 561408 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
+ 185 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
