@@ -105,14 +105,6 @@ T.~T. Santos, J.~G.~A. Barbedo, S.~Ternes, J.~Camargo~Neto, L.~V. Koenigkan,
   \url{https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1126261/1/LV-Agricultura-digital-2020-cap6.pdf}
 \BIBentrySTDinterwordspacing
 
-\bibitem{Momeny2022}
-\BIBentryALTinterwordspacing
-M.~Momeny \emph{et~al.}, ``Detection of citrus black spot disease and ripeness
-  level in orange fruit using learning-to-augment incorporated deep networks,''
-  \emph{Ecological Informatics}, vol.~71, p. 101829, 2022. [Online]. Available:
-  \url{https://www.sciencedirect.com/science/article/abs/pii/S1574954122002795}
-\BIBentrySTDinterwordspacing
-
 \bibitem{Marques2022}
 \BIBentryALTinterwordspacing
 M.~N. Marques, C.~O. Pontelli, and E.~C. de~Paiva, ``Identificação de
@@ -120,6 +112,14 @@ M.~N. Marques, C.~O. Pontelli, and E.~C. de~Paiva, ``Identificação de
   profundas,'' \emph{Congresso Brasileiro de Automática (CBA)}, 2022.
   [Online]. Available:
   \url{https://sba.org.br/open_journal_systems/index.php/cba/article/view/3507/3036}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Momeny2022}
+\BIBentryALTinterwordspacing
+M.~Momeny \emph{et~al.}, ``Detection of citrus black spot disease and ripeness
+  level in orange fruit using learning-to-augment incorporated deep networks,''
+  \emph{Ecological Informatics}, vol.~71, p. 101829, 2022. [Online]. Available:
+  \url{https://www.sciencedirect.com/science/article/abs/pii/S1574954122002795}
 \BIBentrySTDinterwordspacing
 
 \bibitem{Gonzalez2010}
