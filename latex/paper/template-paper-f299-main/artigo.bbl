@@ -29,7 +29,7 @@
 
 \bibitem{USDA2025}
 \BIBentryALTinterwordspacing
-{USDA}. (2025) Citrus: circular técnica para citros. [Online]. Available:
+{USDA}. (2025) Citrus: World markets and trade. [Online]. Available:
   \url{https://apps.fas.usda.gov/psdonline/circulars/citrus.pdf}
 \BIBentrySTDinterwordspacing
 
@@ -111,10 +111,11 @@ M.~N. Marques, C.~O. Pontelli, and E.~C. de~Paiva, ``Identificação de
 \BIBentrySTDinterwordspacing
 
 \bibitem{Gonzalez2010}
-R.~C. Gonzalez, ``Digital image processing,'' 2010.
+R.~C. Gonzalez and R.~E. Woods, ``Digital image processing,'' \emph{Pearson
+  Prentice Hall}, 2010.
 
 \bibitem{TanLe2019}
-Q.~V.~L. M.~Tan, ``Efficientnet: Rethinking model scaling for convolutional
+M.~Tan and Q.~V. Le, ``Efficientnet: Rethinking model scaling for convolutional
   neural networks,'' \emph{Proceedings of the International Conference on
   Machine Learning (ICML)}, 2019.
 

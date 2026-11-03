@@ -13,48 +13,46 @@ Database file #1: referencias.bib
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Warning--empty journal in Gonzalez2010
 
 Done.
 You've used 14 entries,
             4087 wiz_defined-function locations,
-            921 strings with 10907 characters,
-and the built_in function-call counts, 7576 in all, are:
-= -- 615
-> -- 175
+            921 strings with 10917 characters,
+and the built_in function-call counts, 7707 in all, are:
+= -- 627
+> -- 185
 < -- 21
-+ -- 84
-- -- 38
-* -- 364
-:= -- 1339
++ -- 88
+- -- 40
+* -- 373
+:= -- 1354
 add.period$ -- 30
 call.type$ -- 14
 change.case$ -- 16
 chr.to.int$ -- 45
-cite$ -- 15
-duplicate$ -- 575
-empty$ -- 646
-format.name$ -- 47
-if$ -- 1685
+cite$ -- 14
+duplicate$ -- 584
+empty$ -- 654
+format.name$ -- 51
+if$ -- 1717
 int.to.chr$ -- 0
 int.to.str$ -- 14
-missing$ -- 117
+missing$ -- 119
 newline$ -- 87
 num.names$ -- 16
-pop$ -- 305
+pop$ -- 311
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 575
+skip$ -- 585
 stack$ -- 0
 substring$ -- 119
-swap$ -- 391
+swap$ -- 400
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 5
 type$ -- 14
-warning$ -- 1
+warning$ -- 0
 while$ -- 25
 width$ -- 16
-write$ -- 173
-(There was 1 warning)
+write$ -- 174
