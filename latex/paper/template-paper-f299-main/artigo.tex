@@ -168,6 +168,8 @@ O sistema será estruturado em uma arquitetura de microsserviços para garantir 
 
 A inferência será realizada por uma arquitetura de CNN em duas fases: o algoritmo YOLO (REDMON et al., 2016) \cite{Redmon2016} detectará as lesões, enquanto a rede EfficientNet (TAN; LE, 2019) \cite{TanLe2019} realizará a classificação das patologias com um limiar de confiança de 80\%. O sistema operará através dos módulos de Diagnóstico, Contexto, Recomendação - fundamentado nos protocolos de manejo da Embrapa (BORGES et al., 2020) \cite{Borges2021} e Fundecitrus (SILVA JUNIOR et al., 2016) \cite{SilvaJunior2016} - e Diagramação, utilizando a estratégia de "deleção lógica"para assegurar a rastreabilidade dos registros.
 
+Ao fotografar o fruto pela câmera do aplicativo móvel, o sistema registrará as coordenadas do GPS e a precisão de cada captura, e a API adotará como ponto da análise a leitura de menor erro, descartando as superiores a 20 metros, e o armazenará em um tipo espacial do banco de dados. Uma rota dedicada devolverá as análises do usuário filtradas por período, status de processamento e classificação, exibidas no aplicativo como marcadores sobre um mapa de satélite, coloridos conforme o resultado: vermelho para pinta preta, verde para saudável, laranja para análise em andamento e roxo para falha. Ao tocar em um marcador, o usuário visualizará a data da captura, a confiança do modelo e a precisão do GPS, com acesso ao detalhamento da análise. 
+
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{imgs/fluxo2.png}
