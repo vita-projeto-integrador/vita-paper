@@ -93,12 +93,12 @@ T.~T. Santos, J.~G.~A. Barbedo, S.~Ternes, J.~Camargo~Neto, L.~V. Koenigkan,
   \url{https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1126261/1/LV-Agricultura-digital-2020-cap6.pdf}
 \BIBentrySTDinterwordspacing
 
-\bibitem{Ribeiro2012}
+\bibitem{Momeny2022}
 \BIBentryALTinterwordspacing
-P.~P.~E. Ribeiro, L.~A. Castro~Jorge, and M.~S.~V. Paiva, ``Diferenciação do
-  greening de outras doenças foliares em citros utilizando técnicas de
-  processamento de imagens,'' 2012. [Online]. Available:
-  \url{https://swfrec.ifas.ufl.edu/hlb/database/pdf/00002955.pdf}
+M.~Momeny \emph{et~al.}, ``Detection of citrus black spot disease and ripeness
+  level in orange fruit using learning-to-augment incorporated deep networks,''
+  \emph{Ecological Informatics}, vol.~71, p. 101829, 2022. [Online]. Available:
+  \url{https://www.sciencedirect.com/science/article/abs/pii/S1574954122002795}
 \BIBentrySTDinterwordspacing
 
 \bibitem{Marques2022}
@@ -110,12 +110,20 @@ M.~N. Marques, C.~O. Pontelli, and E.~C. de~Paiva, ``Identificação de
   \url{https://sba.org.br/open_journal_systems/index.php/cba/article/view/3507/3036}
 \BIBentrySTDinterwordspacing
 
-\bibitem{Momeny2022}
+\bibitem{Gonzalez2010}
+R.~C. Gonzalez, ``Digital image processing,'' 2010.
+
+\bibitem{TanLe2019}
+Q.~V.~L. M.~Tan, ``Efficientnet: Rethinking model scaling for convolutional
+  neural networks,'' \emph{Proceedings of the International Conference on
+  Machine Learning (ICML)}, 2019.
+
+\bibitem{Ribeiro2012}
 \BIBentryALTinterwordspacing
-M.~Momeny \emph{et~al.}, ``Detection of citrus black spot disease and ripeness
-  level in orange fruit using learning-to-augment incorporated deep networks,''
-  \emph{Ecological Informatics}, vol.~71, p. 101829, 2022. [Online]. Available:
-  \url{https://www.sciencedirect.com/science/article/abs/pii/S1574954122002795}
+P.~P.~E. Ribeiro, L.~A. Castro~Jorge, and M.~S.~V. Paiva, ``Diferenciação do
+  greening de outras doenças foliares em citros utilizando técnicas de
+  processamento de imagens,'' 2012. [Online]. Available:
+  \url{https://swfrec.ifas.ufl.edu/hlb/database/pdf/00002955.pdf}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}
