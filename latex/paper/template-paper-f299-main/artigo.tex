@@ -164,7 +164,7 @@ Em síntese, enquanto os trabalhos de Ribeiro, Castro Jorge e Paiva (2012) \cite
 
 Esta pesquisa caracteriza-se como um estudo de natureza aplicada com abordagem experimental, voltado ao desenvolvimento de um sistema multiplataforma de pré-diagnóstico fitossanitário para a identificação precoce da Pinta Preta (Phyllosticta citricarpa) na cultura da tangerina Ponkan, visando a otimização de medidas preventivas no Vale do Ribeira.
 
-O sistema será estruturado em uma arquitetura de microsserviços. A orquestração da Interface de Programação de Aplicações (API) será realizada em Node.js, enquanto o processamento de Inteligência Artificial (IA) utilizará a linguagem Python. A persistência dos dados ocorrerá em banco de dados MySQL via Object-Relational Mapping (ORM) Sequelize, com o suporte do Redis e da biblioteca BullMQ para o gerenciamento de filas assíncronas.
+O sistema será estruturado em uma arquitetura de microsserviços. A orquestração da Interface de Programação de Aplicações (API) será realizada em Node.js, enquanto o processamento de Inteligência Artificial (IA) utilizará a linguagem Python. A persistência dos dados ocorrerá em banco de dados PostgreSQL via Object-Relational Mapping (ORM) Sequelize, com o suporte do Redis e da biblioteca BullMQ para o gerenciamento de filas assíncronas.
 
 A comunicação entre os módulos ocorrerá via API com estilo arquitetural Representational State Transfer (REST). Para garantir a responsividade da interface (React Native e Next.js), o processamento de imagens será delegado a workers assíncronos. O pipeline de tratamento utilizará a biblioteca Sharp para redimensionamento (224x224 px), filtragem de ruído, ajustes de contraste, conversão para padrão sRGB e extração de buffer binário.
 
@@ -172,7 +172,7 @@ A inferência será realizada por uma Rede Neural Convolucional (CNN) de duas fa
 
 O fluxo da arquitetura (Figura 1) iniciar-se-á com o upload das imagens pelo cliente (Etapa A), que serão salvas pela API e registradas como "Pendente" (Etapa B). O job será enviado à fila assíncrona (Etapa C), onde o worker acionará o tratamento via Sharp (Etapa D).
 
-A imagem tratada será submetida ao modelo de IA (Etapa E) para inferência. Caso o diagnóstico seja positivo (Etapa F), o sistema aplicará os protocolos da EMBRAPA para gerar um Plano de Ação (Etapa G) e persistirá o resultado no MySQL (Etapa H).
+A imagem tratada será submetida ao modelo de IA (Etapa E) para inferência. Caso o diagnóstico seja positivo (Etapa F), o sistema aplicará os protocolos da EMBRAPA para gerar um Plano de Ação (Etapa G) e persistirá o resultado no PostgreSQL (Etapa H).
 
 Ao finalizar, o sistema atualizará o status da análise para "Concluída" (Etapa I), disparando a notificação de resultado para a interface do usuário (Etapa J). Se o diagnóstico for negativo, o sistema desativará a análise, mantendo o banco de dados otimizado.
 
@@ -180,7 +180,7 @@ Este ciclo assíncrono garantirá a escalabilidade do sistema. Para validar a ar
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{imgs/fluxo2.png}
+\includegraphics[width=\textwidth]{imgs/fluxograma_metodologia_031126.png}
 \caption{Fluxo de processamento de imagens do sistema. \\ Fonte: Autoria própria.}
 \label{fig:exemplo}
 \end{figure}
