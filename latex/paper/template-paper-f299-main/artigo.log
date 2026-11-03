@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.5.18)  2 NOV 2026 22:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.5.18)  3 NOV 2026 10:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -820,15 +820,15 @@ Package rerunfilecheck Info: File `artigo.out' has not changed.
 (rerunfilecheck)             Checksum: 36518624C7955927F9F5F4D1E3D080E9;399.
  ) 
 Here is how much of TeX's memory you used:
- 25004 strings out of 467691
- 467396 string characters out of 5414987
+ 25005 strings out of 467691
+ 467412 string characters out of 5414987
  956667 words of memory out of 5000000
- 53613 multiletter control sequences out of 15000+600000
+ 53614 multiletter control sequences out of 15000+600000
  682209 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,18n,94p,1300b,985s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
-Output written on artigo.pdf (6 pages, 556525 bytes).
+Output written on artigo.pdf (6 pages, 556539 bytes).
 PDF statistics:
  160 PDF objects out of 1000 (max. 8388607)
  26 named destinations out of 1000 (max. 500000)
