@@ -29,7 +29,7 @@
 
 \bibitem{USDA2025}
 \BIBentryALTinterwordspacing
-{USDA}. (2025) Citrus: circular técnica para citros. [Online]. Available:
+{USDA}. (2025) Citrus: World markets and trade. [Online]. Available:
   \url{https://apps.fas.usda.gov/psdonline/circulars/citrus.pdf}
 \BIBentrySTDinterwordspacing
 
@@ -50,20 +50,32 @@
   \url{https://www.cnpmf.embrapa.br/Base_de_Dados/index_pdf/dados/brasil/tangerina/b32_tangerina.pdf}
 \BIBentrySTDinterwordspacing
 
+\bibitem{Brasil2006}
+\BIBentryALTinterwordspacing
+{Brasil}, ``Lei n{\textordmasculine} 11.326, de 24 de julho de 2006: Estabelece
+  as diretrizes para a formulação da política nacional da agricultura
+  familiar e empreendimentos familiares rurais,'' Diário Oficial da União,
+  Brasília, DF, 25 jul. 2006, 2006. [Online]. Available:
+  \url{https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11326.htm}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Wanderley2000}
+\BIBentryALTinterwordspacing
+M.~d. N.~B. Wanderley, ``A valorização da agricultura familiar e a
+  reivindicação da ruralidade no brasil,'' \emph{Desenvolvimento e Meio
+  Ambiente}, vol.~2, 2000. [Online]. Available:
+  \url{https://revistas.ufpr.br/made/article/view/22105}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Wanderley2003}
+------, ``Agricultura familiar e campesinato: rupturas e continuidade,''
+  \emph{Estudos Sociedade e Agricultura}, no.~21, pp. 42--61, oct 2003.
+
 \bibitem{Pagassini2024}
 J.~A.~V. Pagassini, L.~C. F.~d. Almeida, and M.~C. d.~G. Gasparoto,
   ``Perception and adoption of integrated plant disease management by family
   farmers in ribeira valley (são paulo state, brazil),'' \emph{Revista Caderno
   Pedagógico}, vol.~21, no.~3, pp. 1--22, 2024.
-
-\bibitem{Borges2021}
-\BIBentryALTinterwordspacing
-A.~L. Borges, E.~A. Girardi, and L.~d.~S. Souza, ``Recomendação de calagem e
-  adubação,'' in \emph{Calagem e adubação para os citros (laranjeiras,
-  limeiras-ácidas e tangerineiras)}.\hskip 1em plus 0.5em minus 0.4em\relax
-  EMBRAPA, 2020. [Online]. Available:
-  \url{https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1134672/1/cap9-livro-RecomendacaoCalagemAdubacao-AnaLuciaBorges-AINFO-1.pdf}
-\BIBentrySTDinterwordspacing
 
 \bibitem{SilvaJunior2016}
 \BIBentryALTinterwordspacing
@@ -93,14 +105,6 @@ T.~T. Santos, J.~G.~A. Barbedo, S.~Ternes, J.~Camargo~Neto, L.~V. Koenigkan,
   \url{https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1126261/1/LV-Agricultura-digital-2020-cap6.pdf}
 \BIBentrySTDinterwordspacing
 
-\bibitem{Ribeiro2012}
-\BIBentryALTinterwordspacing
-P.~P.~E. Ribeiro, L.~A. Castro~Jorge, and M.~S.~V. Paiva, ``Diferenciação do
-  greening de outras doenças foliares em citros utilizando técnicas de
-  processamento de imagens,'' 2012. [Online]. Available:
-  \url{https://swfrec.ifas.ufl.edu/hlb/database/pdf/00002955.pdf}
-\BIBentrySTDinterwordspacing
-
 \bibitem{Marques2022}
 \BIBentryALTinterwordspacing
 M.~N. Marques, C.~O. Pontelli, and E.~C. de~Paiva, ``Identificação de
@@ -116,6 +120,79 @@ M.~Momeny \emph{et~al.}, ``Detection of citrus black spot disease and ripeness
   level in orange fruit using learning-to-augment incorporated deep networks,''
   \emph{Ecological Informatics}, vol.~71, p. 101829, 2022. [Online]. Available:
   \url{https://www.sciencedirect.com/science/article/abs/pii/S1574954122002795}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Gonzalez2010}
+R.~C. Gonzalez and R.~E. Woods, ``Digital image processing,'' \emph{Pearson
+  Prentice Hall}, 2010.
+
+\bibitem{TanLe2019}
+M.~Tan and Q.~V. Le, ``Efficientnet: Rethinking model scaling for convolutional
+  neural networks,'' \emph{Proceedings of the International Conference on
+  Machine Learning (ICML)}, 2019.
+
+\bibitem{Ribeiro2012}
+\BIBentryALTinterwordspacing
+P.~P.~E. Ribeiro, L.~A. Castro~Jorge, and M.~S.~V. Paiva, ``Diferenciação do
+  greening de outras doenças foliares em citros utilizando técnicas de
+  processamento de imagens,'' 2012. [Online]. Available:
+  \url{https://swfrec.ifas.ufl.edu/hlb/database/pdf/00002955.pdf}
+\BIBentrySTDinterwordspacing
+
+\bibitem{NodeJS2026}
+\BIBentryALTinterwordspacing
+{OpenJS Foundation}. (2026) {Node.js} documentation. [Online]. Available:
+  \url{https://nodejs.org/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Python2026}
+\BIBentryALTinterwordspacing
+{Python Software Foundation}. (2026) {Python} language reference, version 3.x.
+  [Online]. Available: \url{https://www.python.org/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{PostgreSQL2023}
+\BIBentryALTinterwordspacing
+{PostgreSQL Global Development Group}. (2023) {PostgreSQL} 16 documentation.
+  [Online]. Available: \url{https://www.postgresql.org/docs/16/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Redis2026}
+\BIBentryALTinterwordspacing
+{Redis Ltd.} (2026) {Redis} documentation. [Online]. Available:
+  \url{https://redis.io/docs/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ReactNative2026}
+\BIBentryALTinterwordspacing
+{Meta}. (2026) {React Native}: Learn once, write anywhere. [Online]. Available:
+  \url{https://reactnative.dev/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{NextJS2026}
+\BIBentryALTinterwordspacing
+{Vercel}. (2026) {Next.js} documentation. [Online]. Available:
+  \url{https://nextjs.org/docs}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Fuller2026}
+\BIBentryALTinterwordspacing
+L.~Fuller. (2026) sharp: High performance {Node.js} image processing. [Online].
+  Available: \url{https://sharp.pixelplumbing.com/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Redmon2016}
+J.~R. et~al., ``You only look once: Unified, real-time object detection,''
+  \emph{IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  2016.
+
+\bibitem{Borges2021}
+\BIBentryALTinterwordspacing
+A.~L. Borges, E.~A. Girardi, and L.~d.~S. Souza, ``Recomendação de calagem e
+  adubação,'' in \emph{Calagem e adubação para os citros (laranjeiras,
+  limeiras-ácidas e tangerineiras)}.\hskip 1em plus 0.5em minus 0.4em\relax
+  EMBRAPA, 2020. [Online]. Available:
+  \url{https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1134672/1/cap9-livro-RecomendacaoCalagemAdubacao-AnaLuciaBorges-AINFO-1.pdf}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}
